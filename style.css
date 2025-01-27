@@ -1,0 +1,150 @@
+/* Resetando margem e padding padrão, e definindo box-sizing como border-box para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilizando o elemento body */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #9ddeff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Estilizando o container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 60px 20px 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #616161;
+    position: relative;
+}
+
+/* Estilizando o h1 dentro do container */
+.container h1 {
+    font-size: 1.5rem;
+    color: #616161;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+/* Estilizando o grupo de inputs */
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilizando a caixa de input */
+.input-box {
+    flex: 1;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+
+/* Estilizando os elementos input e select dentro da caixa de input */
+.input-box input,
+.input-box select {
+    width: 320px;
+    padding: 13px;
+    border: 1px solid #ddd9d9;
+    border-radius: 5px;
+}
+
+/* Efeito hover para input, select e container de input */
+.input-box input:hover,
+.input-box select:hover,
+.input-container:hover {
+    border: 1.5px solid #a2cce0;
+}
+
+/* Efeito hover para o elemento service */
+#service:hover {
+    border: 1.5px solid #a2cce0;
+}
+
+/* Estilizando o placeholder do elemento service */
+#service::placeholder {
+    border: 1.5px solid #a2cce0;
+}
+
+/* Estilizando o placeholder dos elementos input e select */
+.input-box input::placeholder,
+.input-box select::placeholder {
+    font-size: 1em;
+    transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+/* Efeito hover para o placeholder nos elementos input e select */
+.input-box input:hover::placeholder,
+.input-box select:hover::placeholder {
+    color: #a2cce0;
+    font-size: 0.8em;
+}
+
+/* Estilizando o elemento service dentro da caixa de input */
+.input-box #service {
+    padding: 12px 2px 12px 10px;
+    border: 1px solid #ddd9d9;
+    border-radius: 5px;
+    width: 100%;
+    color: #7a7878;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+/* Estilizando o container de input */
+.input-container {
+    width: 650px;
+    padding: 5px;
+    border: 1px solid #ddd9d9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 6px;
+}
+
+/* Estilizando o input dentro do container de input */
+.input-container input {
+    border: none;
+    width: 100%;
+    padding: 0px 0px 120px 10px;
+    box-sizing: border-box;
+    text-align: left;
+    min-height: 150px;
+    resize: none;
+}
+
+/* Estilizando o placeholder do input dentro do container de input */
+.input-container input::placeholder {
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Estilizando o botão */
+button {
+    background-color: #0175be;
+    color: #fff;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    display: block;
+}
+
+/* Removendo outline para elementos focados */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

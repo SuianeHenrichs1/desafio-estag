@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Trii</title>
+</head>
+<body>
+    <div>
+        <main class="container">
+            <!-- Formulário de orçamento -->
+            <form id="formulario">
+                <h1>Peça seu orçamento agora mesmo!</h1>
+
+                <!-- Grupo de inputs para nome e e-mail -->
+                <div class="input-group">
+                    <div class="input-box">
+                        <input placeholder="Nome" type="text">
+                    </div>
+                    <div class="input-box">
+                        <input placeholder="E-mail" type="email">
+                    </div>
+                </div>
+
+                <!-- Grupo de inputs para telefone e seleção de serviço -->
+                <div class="input-group">
+                    <div class="input-box">
+                        <input placeholder="Telefone" type="tel">
+                    </div>
+                    <div class="input-box">
+                        <select id="service" required>
+                            <option value="" disabled selected>Escolha o serviço que deseja</option>
+                            <option value="opcao1">Opção 1</option>
+                            <option value="opcao2">Opção 2</option>
+                            <option value="opcao3">Opção 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Input para mensagem -->
+                <div class="input-container">
+                    <input placeholder="Mensagem" type="text">
+                </div>                
+
+                <!-- Botão de envio do formulário -->
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+    </div> 
+    <script src="script.js"></script>   
+</body>
+</html>
