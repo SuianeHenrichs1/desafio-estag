@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  Este projeto foi desenvolvido como parte de um desafio para vaga de estágio. O objetivo é demonstrar conhecimentos em HTML, CSS e JavaScript, criando uma aplicação funcional e responsiva. 🚀
+  Este projeto foi desenvolvido como parte de um desafio para vaga de estágio. O objetivo é demonstrar conhecimentos em HTML, CSS e JavaScript, criando uma aplicação funcional. 🚀
 </p>
 
 <p align="center">
